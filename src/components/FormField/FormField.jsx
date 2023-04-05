@@ -27,8 +27,6 @@ export const FormField = ({onSubmit, contArr}) =>{
             return
         }
         }
-        console.log(values.name);
-        console.log(values);
         onSubmit({
           ...values,
           id:nanoid(),
